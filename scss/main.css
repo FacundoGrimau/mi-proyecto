@@ -1,3 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Estilos Header */
+.container-fluid {
+  background-color: white;
+  padding: 10px 0px;
+  gap: 50px;
+}
+
+.logo {
+  width: 20%;
+}
+.logo .img {
+  width: 90%;
+  height: auto;
+}
+
+#navbarSupportedContent ul {
+  font-size: 20px;
+  font-weight: bolder;
+  border-color: black white;
+  border-style: double;
+}
+#navbarSupportedContent li {
+  display: inline-block;
+}
+#navbarSupportedContent a {
+  margin: 10px;
+}
+#navbarSupportedContent ul li a:hover {
+  background-color: #0a0908;
+  color: yellow;
+}
+
+.d-flex {
+  padding: 10px;
+}
+.d-flex .form-control {
+  font-style: italic;
+}
+
 main {
   background-image: url(../images/fondo-de-pantalla.jpg);
   margin: 0;
