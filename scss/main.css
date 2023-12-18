@@ -1,3 +1,65 @@
+.footer {
+  background-color: #c6ac8f;
+  color: #0a0908;
+  text-align: center;
+  display: grid;
+  grid-template-rows: repeat(2, fr);
+  gap: 20px;
+  padding: 20px;
+}
+.footer .menu-de-pie ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer .menu-de-pie p {
+  display: none;
+}
+.footer .menu-de-pie li {
+  list-style-type: none;
+  font-weight: bolder;
+  margin: 20px;
+  display: inline-block;
+}
+.footer .menu-de-pie a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #0a0908;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .estructura-pie {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  padding: 0px 20px;
+}
+.footer .redes-sociales {
+  text-align: left;
+}
+.footer .redes-sociales p {
+  font-size: 14px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.footer .redes-sociales img {
+  width: 40px;
+  height: auto;
+  margin-left: 5px;
+  padding: 10px 0px;
+}
+.footer .redes-sociales li {
+  list-style-type: none;
+  display: inline-block;
+}
+.footer .derechos-de-autor p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: right;
+}
+
 main {
   background-image: url(../images/fondo-de-pantalla.jpg);
   margin: 0;
