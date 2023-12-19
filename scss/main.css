@@ -104,7 +104,7 @@ form.control {
 /* @media Header */
 @media (min-width: 300px) and (max-width: 700px) {
   .container-fluid {
-    gap: 5px;
+    gap: 10px;
   }
 }
 /* @media Footer */
