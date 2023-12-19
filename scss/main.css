@@ -28,9 +28,11 @@
   background-color: #0a0908;
   color: yellow;
 }
-#navbarSupportedContent .d-flex {
+
+.d-flex {
   padding: 10px;
 }
-#navbarSupportedContent form.control {
+
+form.control {
   font-style: italic;
 }/*# sourceMappingURL=main.css.map */
