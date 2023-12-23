@@ -13,3 +13,12 @@ $colorPrincipalTexto: #fff;
 $colorSecundarioTexto: #0a0908;
 $colorTerciarioTexto: blanchedalmond;
 $imagenDeFondoPrincipal: background-image url(../images/fondo-de-pantalla.jpg);
+
+#navbarSupportedContent {
+    ul {
+        font-size: 20px;
+        font-weight: bolder;
+        border-color: black white;
+        border-style: double;
+    }
+}
