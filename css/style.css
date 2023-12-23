@@ -48,10 +48,6 @@ body {
     padding: 10px;
 }
 
-.form-control {
-    font-style: italic;
-}
-
 /* @media Header */
 @media (min-width: 500px) and (max-width: 605px) {
     .container-fluid {
@@ -238,7 +234,7 @@ main {
     padding: 20px;
 }
 
-.historia h2 {
+.historia h1 {
     font-size: 36px;
     text-align: center;
     font-style: italic;
@@ -307,7 +303,7 @@ main {
 
 /* @media Nosotros */
 @media (min-width: 300px) and (max-width: 700px) {
-    .main-historia h2 {
+    .main-historia h1 {
         margin: 5px;
         padding: 20px;
         font-size: 14px;
@@ -377,6 +373,13 @@ main {
     grid-template-columns: 20% 70%;
     justify-content: space-around;
     padding: 20px 0px;
+}
+
+.main-menu h1 {
+    color: blanchedalmond;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 10px;
 }
 
 .tabla-de-contenido {
@@ -560,14 +563,14 @@ article p {
     color: bisque;
 }
 
-.descripcion-franquicia h2 {
+.descripcion-franquicia h1 {
     font-size: 22px;
     font-weight: bolder;
     font-style: italic;
     padding-bottom: 20px;
 }
 
-.descripcion-franquicia h3 {
+.descripcion-franquicia h2 {
     font-size: 16px;
     font-weight: bolder;
     line-height: 3.0;
@@ -637,7 +640,7 @@ article p {
 
 
 /* Estilos Contacto */
-.titulo-contacto h2 {
+.titulo-contacto h1 {
     background-color:darkgoldenrod;
     color: #0a0908;
     font-size: 36px;
