@@ -31,5 +31,7 @@
 }
 .d-flex {
     padding: 10px;
-    [input]: font-style: italic;
+    .form-control {
+        font-style: italic;
+    } 
 }
