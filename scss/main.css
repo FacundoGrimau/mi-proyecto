@@ -24,7 +24,7 @@
 .container-fluid #navbarSupportedContent a {
   margin: 10px;
 }
-ul li .container-fluid #navbarSupportedContent:hover {
+.container-fluid #navbarSupportedContent ul li a:hover {
   background-color: #0a0908;
   color: yellow;
 }
