@@ -15,11 +15,11 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $fuentePrincipal;
 }
 /* Estilos Index */
 main {
-    background-image: url(../images/fondo-de-pantalla.jpg);
+    background-image: $imagenDeFondo;
     margin: 0;
     text-align: center;
 }
