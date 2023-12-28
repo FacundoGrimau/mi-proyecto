@@ -187,7 +187,7 @@ main .boton-menu .link-menu a {
 }
 
 /* Estilos Menu */
-.main-menu .titulo-menu h1 {
+.main-menu .titulo-menu {
   color: blanchedalmond;
   font-size: 36px;
   font-weight: bolder;
@@ -321,7 +321,7 @@ main .boton-menu .link-menu a {
 }
 
 /* Estilos Contacto */
-.main-contacto .titulo-contacto h1 {
+.main-contacto .titulo-contacto {
   background-color: darkgoldenrod;
   color: #0a0908;
   font-size: 36px;

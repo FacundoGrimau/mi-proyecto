@@ -147,7 +147,7 @@ main {
 }
 /* Estilos Menu */
 .main-menu {
-    .titulo-menu h1 {
+    .titulo-menu {
         color: $colorTerciario;
         font-size: 36px;
         font-weight: bolder;
@@ -283,7 +283,7 @@ main {
 }
 /* Estilos Contacto */
 .main-contacto {
-    .titulo-contacto h1 {
+    .titulo-contacto {
         background-color: darkgoldenrod;
         color: $colorSecundario;
         font-size: 36px;
