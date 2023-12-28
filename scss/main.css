@@ -1,1 +1,33 @@
-/*# sourceMappingURL=main.css.map */
+/* Partial */
+/* Estilos Header */
+.container-fluid {
+  background-color: white;
+  padding: 10px 0px;
+  gap: 50px;
+}
+.container-fluid .logo {
+  width: 20%;
+}
+.container-fluid .logo img {
+  width: 90%;
+  height: auto;
+}
+.container-fluid #navbarSupportedContent ul {
+  font-size: 20px;
+  font-weight: bolder;
+  border-color: black white;
+  border-style: double;
+}
+.container-fluid #navbarSupportedContent li {
+  display: inline-block;
+}
+.container-fluid #navbarSupportedContent a {
+  margin: 10px;
+}
+ul li .container-fluid #navbarSupportedContent:hover {
+  background-color: #0a0908;
+  color: yellow;
+}
+.container-fluid .d-flex {
+  padding: 10px;
+}/*# sourceMappingURL=main.css.map */
