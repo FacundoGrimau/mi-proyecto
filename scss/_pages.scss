@@ -227,3 +227,54 @@ main {
         }
     }
 }
+/* Estilos Franquicias */
+.main-franquicia {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    .imagen-franquicia {
+        width: 50%;
+        margin-right: 40px;
+        margin-left: 20px;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    .descripcion-franquicia {
+        width: 50%;
+        margin: 20px;
+        padding: 10px;
+        color: bisque;
+        h1 {
+            font-size: 22px;
+            font-weight: bolder;
+            font-style: italic;
+            padding-bottom: 20px;
+        }
+        h2 {
+            font-size: 16px;
+            font-weight: bolder;
+            line-height: 3.0;
+            padding-top: 15px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 2.5;
+            color: whitesmoke;
+        }
+        a {
+            font-size: 14px;
+            font-weight: bolder;
+            line-height: 5.0;
+            text-decoration: none;
+            color: whitesmoke;
+            border-color: yellow;
+            border-style: groove;
+            padding: 10px 10px;
+            cursor: pointer;
+        }
+    }
+
+}
