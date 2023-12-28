@@ -157,73 +157,73 @@ main {
         font-weight: bolder;
         padding: 10px;
     }
-    .tabla-de-contenido {
-        height: 12%;
-        border: double 5px grey;
-        ul {
-            text-align: left;
-            margin: 10px;
-        }
-        li {
-            list-style: none;
-        }
-        p {
+}
+.tabla-de-contenido {
+    height: 12%;
+    border: double 5px grey;
+    ul {
+        text-align: left;
+        margin: 10px;
+    }
+    li {
+        list-style: none;
+    }
+    p {
+        color: $colorTerciario;
+        font-size: 18px;
+        font-weight: bolder;
+        padding: 10px;
+    }
+    .texto-tabla {
+        color: $colorTerciario;
+        padding: 5px;
+    }
+}
+.menu-general {
+    border: double 5px #ff6600;
+    padding: 15px;
+    .nuestro-menu {
+        display: flexbox;
+        justify-content: space-between;
+        h2 {
             color: $colorTerciario;
-            font-size: 18px;
+            font-size: 20px;
             font-weight: bolder;
-            padding: 10px;
-        }
-        .texto-tabla {
-            color: $colorTerciario;
-            padding: 5px;
+            font-style: italic;
+            text-decoration: underline;
+            text-align: left;
+            margin: 10px 20px 0px 10px;
+            padding-top: 20px;
+            padding-left: 10px;
         }
     }
-    .menu-general {
-        border: double 5px #ff6600;
-        padding: 15px;
-        .nuestro-menu {
-            display: flexbox;
-            justify-content: space-between;
-            h2 {
-                color: $colorTerciario;
-                font-size: 20px;
-                font-weight: bolder;
-                font-style: italic;
-                text-decoration: underline;
-                text-align: left;
-                margin: 10px 20px 0px 10px;
-                padding-top: 20px;
-                padding-left: 10px;
-            }
+    .grid-menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin: 10px;
+        .burger-options img, .hot-dogs-options img {
+            width: 250px;
+            height: auto;
+            margin-top: 15px;
+            border-radius: 5px;
         }
-        .grid-menu {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-            margin: 10px;
-            .burger-options img, .hot-dogs-options img {
-                width: 250px;
-                height: auto;
-                margin-top: 15px;
-                border-radius: 5px;
+        .acompanamientos-options img, .bebidas-options img {
+            width: 250px;
+            height: 150px;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+        article {
+            h3 {
+                color: yellow;
+                font-size: 16px;
+                padding: 10px 30px;
             }
-            .acompanamientos-options img, .bebidas-options img {
-                width: 250px;
-                height: 150px;
-                margin-top: 15px;
-                border-radius: 5px;
-            }
-            article {
-                h3 {
-                    color: yellow;
-                    font-size: 16px;
-                    padding: 10px 30px;
-                }
-                p {
-                    color: whitesmoke;
-                    font-size: 14px;
-                    padding: 0px 20px 15px 20px;
-                }
+            p {
+                color: whitesmoke;
+                font-size: 14px;
+                padding: 0px 20px 15px 20px;
             }
         }
     }
