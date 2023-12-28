@@ -276,5 +276,73 @@ main {
             cursor: pointer;
         }
     }
-
+}
+/* Estilos Contacto */
+.main-contacto {
+    .titulo-contacto h1 {
+        background-color:darkgoldenrod;
+        color: $colorSecundario;
+        font-size: 36px;
+        font-weight: bolder;
+        text-align: center;
+        padding: 30px;
+        border-color: black;
+        border-style: double;
+    }
+    .estructura-contacto {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        .descripcion-de-contacto {
+            width: 40%;
+            padding: 40px 10px;
+            p {
+                color: whitesmoke;
+                font-size: 16px;
+                font-style:oblique;
+                line-height: 1.5;
+                text-align: center;
+                padding-bottom: 20px;
+            }
+            .formulario-de-contacto {
+                max-width: 100%;
+                text-align: left;
+                border-color: darkgoldenrod;
+                border-style: solid;
+                padding: 10px;
+                .campo-formulario {
+                    color: whitesmoke;
+                }
+                .texto-formulario {
+                    color: $colorSecundario;
+                    font-size: 14px;
+                    text-align: left;
+                    margin: 5px 0px 15px 0px;
+                }
+                .texto-formulario, .boton-formulario {
+                    width: 100%;
+                    padding: 8px;
+                    border-color: rgb(165, 160, 160);
+                    border-style: solid 5px;
+                    border-radius: 4px;
+                }
+                .formulario-de-contacto .boton-formulario {
+                    background-color: #4CAF50;
+                    color: white;
+                    margin: 5px 0px;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                } 
+                .formulario-de-contacto .boton-formulario:hover {
+                    background-color: #09690e;
+                }
+            }
+        }
+        .ubicacion {
+            width: 40%;
+        }
+    }
 }
