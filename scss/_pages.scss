@@ -95,20 +95,27 @@ main {
         padding: 20px;
         color: $colorTerciario;
     }
-    .primer-historia img, .segunda-historia img {
-        width: 40%;
-        height: auto;
-        margin: 30px;
-        border-color: white;
-        border-radius: 10px;
-        display: inline-block;
-    }
-    .primer-historia p, .segunda-historia p {
+    .primer-historia, .segunda-historia {
+        margin: 10px;
+        padding: 20px 50px 0px 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img {
+            width: 40%;
+            height: auto;
+            margin: 30px;
+            border-color: white;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        p {
         width: 40%;
         color: whitesmoke;
         font-size: 16px;
         text-align: justify;
         line-height: 2.0;
+        }
     }
 }
 .trabaja-con-nosotros {
