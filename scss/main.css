@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Partial */
 /* Estilos Header */
 .container-fluid {
@@ -100,5 +101,268 @@
 @media (min-width: 500px) and (max-width: 605px) {
   .container-fluid {
     gap: 5px;
+  }
+}
+/* @media Index */
+@media (min-width: 300px) and (max-width: 700px) {
+  .d-block {
+    max-width: 100%;
+    height: 300px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .productos h1 {
+    margin: 5px;
+    padding-top: 15px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .productos p {
+    padding: 5px 20px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .contenedor-cuatro-imagenes {
+    padding: 20px 10px 0px 10px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 20px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .contenedor-cuatro-imagenes img {
+    margin: 0;
+    padding: 0px 20px;
+    width: 100%;
+    height: 85%;
+    justify-content: center;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .link-menu {
+    margin: 0;
+    padding: 5px;
+    font-size: 10px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .newsletter {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .newsletter h2 {
+    margin: 0;
+    padding: 5px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .newsletter p {
+    margin: 0;
+    padding: 10px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .correo-electronico, .boton-correo-electronico {
+    margin: 10px 5px;
+    padding: 5px;
+    font-size: 12px;
+  }
+}
+/* @media Nosotros */
+@media (min-width: 300px) and (max-width: 700px) {
+  .main-historia h1 {
+    margin: 5px;
+    padding: 20px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .primer-historia, .segunda-historia {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .primer-historia img, .segunda-historia img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .segunda-historia {
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .primer-historia p, .segunda-historia p {
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .trabaja-con-nosotros {
+    padding: 10px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .trabaja-con-nosotros h2 {
+    font-size: 14px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .trabaja-con-nosotros p, .trabaja-con-nosotros a {
+    font-size: 12px;
+  }
+}
+/* @media Menu */
+@media (min-width: 300px) and (max-width: 700px) {
+  .main-menu {
+    display: block;
+    padding: 20px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .tabla-de-contenido {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .menu-general h2 {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .grid-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .burger-options img, .hot-dogs-options img {
+    width: 100px;
+    height: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .acompañamientos-options img, .bebidas-options img {
+    width: 100px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .burger-options h3,
+  .hot-dogs-options h3,
+  .acompañamientos-options h3,
+  .bebidas-options h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .burger-options p,
+  .hot-dogs-options p,
+  .acompañamientos-options p,
+  .bebidas-options p {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+  }
+}
+/* @media Franquicias */
+@media (min-width: 300px) and (max-width: 700px) {
+  .main-franquicia {
+    max-width: 100%;
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .imagen-franquicia {
+    margin: 0;
+    padding: 10px 0px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .descripcion-franquicia {
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .descripcion-franquicia h2 {
+    padding-bottom: 5px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .descripcion-franquicia h3, .descripcion-franquicia p, .descripcion-franquicia a {
+    font-size: 12px;
+  }
+}
+/* @media Contacto */
+@media (min-width: 300px) and (max-width: 700px) {
+  .titulo-contacto h2 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .estructura-contacto {
+    display: flexbox;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .descripcion-de-contacto {
+    width: 80%;
+    text-align: center;
+    padding: 20px 0px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .descripcion-de-contacto p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .formulario-de-contacto {
+    font-size: 12px;
+  }
+}
+@media (min-width: 300px) and (max-width: 700px) {
+  .ubicacion {
+    width: 80%;
+    height: auto;
+    padding: 20px 0px;
   }
 }/*# sourceMappingURL=main.css.map */
