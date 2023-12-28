@@ -84,3 +84,65 @@ main {
         cursor: pointer;
     }
 }
+/* Estilos Nosotros */
+.main-historia {
+    padding: 20px;
+    .historia h1 {
+        font-size: 36px;
+        text-align: center;
+        font-style: italic;
+        margin: 10px;
+        padding: 20px;
+        color: $colorTerciario;
+    }
+    .primer-historia, .segunda-historia {
+        margin: 10px;
+        padding: 20px 50px 0px 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;  
+    }
+    .primer-historia img, .segunda-historia img {
+        width: 40%;
+        height: auto;
+        margin: 30px;
+        border-color: white;
+        border-style: groove;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    .primer-historia p, .segunda-historia p {
+        width: 40%;
+        color:whitesmoke;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 2.0;
+    }
+}
+.trabaja-con-nosotros {
+    background-color: #eae0d5;
+    padding: 40px 20px;
+    text-align: center;
+    h2 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 18px;
+        color: #777;
+        margin-bottom: 30px;
+    }
+    a {
+        display: inline-block;
+        font-size: 18px;
+        color: $colorPrincipal;
+        background-color: #ff6600;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        &:hover {
+            background-color: #ff8533;    
+        }
+    }
+}
