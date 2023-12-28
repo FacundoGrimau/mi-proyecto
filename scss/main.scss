@@ -3,22 +3,11 @@
 @import "footer";
 
 
-/* Media */
+/* Responsive */
 @import "mediaHeader";
 @import "media";
 @import "mediaFooter";
 
 
-/* Variables */
+// Variables //
 @import "vars";
-
-
-/* Estilos HTML */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    font-family: $fuentePrincipal;
-}
