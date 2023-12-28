@@ -191,7 +191,8 @@ main .boton-menu .link-menu a {
   color: blanchedalmond;
   font-size: 36px;
   font-weight: bolder;
-  padding: 10px;
+  margin: 20px;
+  padding: 20px;
 }
 .main-menu .descripcion-menu {
   display: grid;
