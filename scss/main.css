@@ -1,34 +1,34 @@
 /* Variables */
 /* Estilos Header */
-.container.fluid {
+.container-fluid {
   background-color: white;
   padding: 10px 0px;
   gap: 50px;
 }
-.container.fluid .logo {
+.container-fluid .logo {
   width: 20%;
 }
-.container.fluid .logo img {
+.container-fluid .logo img {
   width: 90%;
   height: auto;
 }
-.container.fluid #navbarSupportedContent ul {
+.container-fluid #navbarSupportedContent ul {
   font-size: 20px;
   font-weight: bolder;
   border-color: black white;
   border-style: double;
 }
-.container.fluid #navbarSupportedContent li {
+.container-fluid #navbarSupportedContent li {
   display: inline-block;
 }
-.container.fluid #navbarSupportedContent a {
+.container-fluid #navbarSupportedContent a {
   margin: 10px;
 }
-.container.fluid #navbarSupportedContent a:hover {
+.container-fluid #navbarSupportedContent a:hover {
   background-color: #0a0908;
   color: yellow;
 }
-.container.fluid .d-flex {
+.container-fluid .d-flex {
   padding: 10px;
 }
 
