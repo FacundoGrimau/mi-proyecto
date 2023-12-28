@@ -439,44 +439,10 @@ main .boton-menu .link-menu a {
   text-align: right;
 }
 
-/* @media Footer */
+/* @media Header */
 @media (min-width: 300px) and (max-width: 700px) {
-  .footer {
-    display: grid;
-    grid-template-columns: 30% auto;
-    justify-content: space-between;
-    text-align: start;
-    align-items: baseline;
-  }
-  .footer .menu-de-pie p {
-    display: block;
-    color: #0a0908;
-    font-size: 10px;
-    font-weight: bolder;
-    text-decoration: underline;
-    padding-left: 15px;
-  }
-  .footer .menu-de-pie li {
-    display: block;
-    line-height: 0;
-  }
-  .footer .menu-de-pie a {
-    font-size: 10px;
-  }
-  .footer .estructura-pie {
-    display: inline-flex;
-    gap: 40px;
-  }
-  .footer .estructura-pie .redes-sociales p {
-    font-size: 10px;
-  }
-  .footer .estructura-pie .redes-sociales img {
-    width: 30%;
-    height: auto;
-  }
-  .footer .estructura-pie .derechos-de-autor p {
-    font-size: 10px;
-    text-align: center;
+  .container-fluid {
+    gap: 5px;
   }
 }
 /* @media Index */
@@ -698,9 +664,43 @@ main .boton-menu .link-menu a {
     padding: 20px 0px;
   }
 }
-/* @media Header */
+/* @media Footer */
 @media (min-width: 300px) and (max-width: 700px) {
-  .container-fluid {
-    gap: 5px;
+  .footer {
+    display: grid;
+    grid-template-columns: 30% auto;
+    justify-content: space-between;
+    text-align: start;
+    align-items: baseline;
+  }
+  .footer .menu-de-pie p {
+    display: block;
+    color: #0a0908;
+    font-size: 10px;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding-left: 15px;
+  }
+  .footer .menu-de-pie li {
+    display: block;
+    line-height: 0;
+  }
+  .footer .menu-de-pie a {
+    font-size: 10px;
+  }
+  .footer .estructura-pie {
+    display: inline-flex;
+    gap: 40px;
+  }
+  .footer .estructura-pie .redes-sociales p {
+    font-size: 10px;
+  }
+  .footer .estructura-pie .redes-sociales img {
+    width: 30%;
+    height: auto;
+  }
+  .footer .estructura-pie .derechos-de-autor p {
+    font-size: 10px;
+    text-align: center;
   }
 }/*# sourceMappingURL=main.css.map */
