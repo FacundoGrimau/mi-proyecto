@@ -1,7 +1,7 @@
 /* Estilos Footer */
 .footer {
     background-color: #c6ac8f;
-    color: #0a0908;
+    color: $colorSecundario;
     text-align: center;
     display: grid;
     grid-template-rows: repeat(2, fr);
@@ -24,7 +24,7 @@
         a {
             font-size: 18px;
             text-decoration: none;
-            color: #0a0908;
+            color: $colorSecundario;
             &:hover {
                 text-decoration: underline;    
             }
