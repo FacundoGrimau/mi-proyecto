@@ -416,4 +416,14 @@
   }
 }
 /* Variables */
-/* Variables *//*# sourceMappingURL=main.css.map */
+/* Variables */
+/* Estilos HTML */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}/*# sourceMappingURL=main.css.map */
