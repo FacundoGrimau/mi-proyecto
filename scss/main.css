@@ -93,4 +93,12 @@
   font-weight: bolder;
   font-style: italic;
   text-align: right;
+}
+
+/* Media */
+/* @media Header */
+@media (min-width: 500px) and (max-width: 605px) {
+  .container-fluid {
+    gap: 5px;
+  }
 }/*# sourceMappingURL=main.css.map */
