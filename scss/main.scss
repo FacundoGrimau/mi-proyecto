@@ -3,4 +3,347 @@
 
 
 // Variables //
-@import "vars";  
+@import "vars";
+
+
+/* Estilos HTML */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: $fuentePrincipal;
+}
+/*Estilos Index*/
+main {
+    background-image: $imagenDeFondo;
+    margin: 0;
+    text-align: center;
+    .d-block {
+        width: 100%;
+        height: 700px;
+    }
+    .productos {
+        h1 {
+            color: $colorPrincipal;
+            font-size: 36px;
+            text-decoration: underline;
+            margin: 20px;
+            padding: 20px;
+        }
+        p {
+            color: $colorPrincipal;
+            font-size: 20px;
+            padding: 20px;
+        }
+    }
+    .contenedor-cuatro-imagenes {
+        display: block;
+        img {
+            max-width: 100%;
+            display: inline-block;
+            width: 400px;
+            height: 300px;
+            margin: 30px;
+            border-radius: 10px;
+        }
+    }
+    .boton-menu {
+        display: inline-block;
+        margin-bottom: 30px;
+        padding: 10px;
+        .link-menu {
+            font-size: 12px;
+            text-align: center;
+            border-style: groove;
+            border-color: yellow;
+            padding: 15px 10px;
+            cursor: pointer;
+            a {
+                color: $colorPrincipal;
+                font-weight: bolder;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.newsletter {
+    background-color: #eae0d5;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+    h2 {
+        margin-bottom: 10px;
+    }
+    p {
+        display: block;
+        margin: 10px;
+        padding: 20px;
+    }
+    .correo-electronico {
+        padding: 5px;
+    }
+    .boton-correo-electronico {
+        background-color: #333;
+        color: $colorPrincipal;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+}
+/* Estilos Nosotros */
+.main-historia {
+    padding: 20px;
+    .historia h1 {
+        font-size: 36px;
+        text-align: center;
+        font-style: italic;
+        margin: 10px;
+        padding: 20px;
+        color: $colorTerciario;
+    }
+    .primer-historia, .segunda-historia {
+        width: 40%;
+        height: auto;
+        margin: 30px;
+        border-color: white;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    .primer-historia, .segunda-historia p {
+        width: 40%;
+        color: whitesmoke;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 2.0;
+    }
+}
+.trabaja-con-nosotros {
+    background-color: #eae0d5;
+    padding: 40px 20px;
+    text-align: center;
+    h2 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 16px;
+        color: #777;
+        margin-bottom: 30px;
+    }
+    a {
+        display: inline-block;
+        font-size: 18px;
+        color: $colorPrincipal;
+        background-color: #ff6600;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        &:hover {
+            background-color: #ff8533;
+        }
+    }
+}
+/* Estilos Menu */
+.main-menu {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    justify-content: space-around;
+    padding: 20px 0px;
+    h1 {
+        color: $colorTerciario;
+        font-size: 36px;
+        font-weight: bolder;
+        padding: 10px;
+    }
+    .tabla-de-contenido {
+        height: 12%;
+        border: double 5px grey;
+        ul {
+            text-align: left;
+            margin: 10px;
+        }
+        li {
+            list-style: none;
+        }
+        p {
+            color: $colorTerciario;
+            font-size: 18px;
+            font-weight: bolder;
+            padding: 10px;
+        }
+        .texto-tabla {
+            color: $colorTerciario;
+            padding: 5px;
+        }
+    }
+    .menu-general {
+        border: double 5px #ff6600;
+        padding: 15px;
+        .nuestro-menu {
+            display: flexbox;
+            justify-content: space-between;
+            h2 {
+                color: $colorTerciario;
+                font-size: 20px;
+                font-weight: bolder;
+                font-style: italic;
+                text-decoration: underline;
+                text-align: left;
+                margin: 10px 20px 0px 10px;
+                padding-top: 20px;
+                padding-left: 10px;
+            }
+        }
+        .grid-menu {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin: 10px;
+            .burger-options img, .hot-dogs-options img {
+                width: 250px;
+                height: auto;
+                margin-top: 15px;
+                border-radius: 5px;
+            }
+            .acompanamientos-options img, .bebidas-options img {
+                width: 250px;
+                height: 150px;
+                margin-top: 15px;
+                border-radius: 5px;
+            }
+            article {
+                h3 {
+                    color: yellow;
+                    font-size: 16px;
+                    padding: 10px 30px;
+                }
+                p {
+                    color: whitesmoke;
+                    font-size: 14px;
+                    padding: 0px 20px 15px 20px;
+                }
+            }
+        }
+    }
+}
+/* Estilos Franquicias */
+.main-franquicia {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    .imagen-franquicia {
+        width: 50%;
+        margin-right: 40px;
+        margin-left: 20px;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    .descripcion-franquicia {
+        width: 50%;
+        margin: 20px;
+        padding: 10px;
+        color: bisque;
+        h1 {
+            font-size: 22px;
+            font-weight: bolder;
+            font-style: italic;
+            padding-bottom: 20px;
+        }
+        h2 {
+            font-size: 16px;
+            font-weight: bolder;
+            line-height: 3.0;
+            padding-top: 15px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 2.5;
+            color: whitesmoke;
+        }
+        a {
+            font-size: 14px;
+            font-weight: bolder;
+            line-height: 5.0;
+            text-decoration: none;
+            color: whitesmoke;
+            border-color: yellow;
+            border-style: groove;
+            padding: 10px;
+            cursor: pointer;
+        }
+    }
+}
+/* Estilos Contacto */
+.main-contacto {
+    .titulo-contacto h1 {
+        background-color: darkgoldenrod;
+        color: $colorSecundario;
+        font-size: 36px;
+        font-weight: bolder;
+        text-align: center;
+        padding: 30px;
+        border-color: black;
+        border-style: double;
+    }
+    .estructura-contacto {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .descripcion-de-contacto {
+            width: 40%;
+            padding: 40px 10px;
+            p {
+                color: whitesmoke;
+                font-size: 16px;
+                font-style: oblique;
+                line-height: 1.5;
+                text-align: center;
+                padding-bottom: 20px;
+            }
+            .formulario-de-contacto {
+                max-width: 100%;
+                text-align: left;
+                border-color: darkgoldenrod;
+                border-style: solid;
+                padding: 10px;
+                .campo-formulario {
+                    color: whitesmoke;
+                }
+                .texto-formulario {
+                    color: $colorSecundario;
+                    font-size: 14px;
+                    text-align: left;
+                    margin: 5px 0px 15px 0px;
+                }
+                .texto-formulario, .boton-formulario {
+                    width: 100%;
+                    padding: 8px;
+                    border-color: rgb (165, 160, 160);
+                    border-style: solid 5px;
+                    border-radius: 4px;
+                }
+                .boton-formulario {
+                    background-color: #4caf50;
+                    color: white;
+                    margin: 5px 0px;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: #09690e;
+                    }
+                }
+            }
+        }
+        .ubicacion {
+            width: 40%;
+        }
+    }
+}
