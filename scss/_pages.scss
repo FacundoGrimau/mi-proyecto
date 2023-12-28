@@ -1,0 +1,86 @@
+/* Estilos HTML */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/* Estilos Index */
+main {
+    background-image: $imagenDeFondo;
+    margin: 0;
+    text-align: center;
+    .d-block {
+        width: 100%;
+        height: 700px;
+    }
+    .productos {
+        h1 {
+            color: $colorPrincipal;
+            font-size: 36px;
+            text-decoration: underline;
+            margin: 20px;
+            padding: 20px;    
+        }
+        p  {
+            color: $colorPrincipal;
+            font-size: 18px;
+            padding: 20px;
+        }
+    }
+    .contenedor-cuatro-imagenes {
+        display: block;
+        img {
+            max-width: 100%;
+            display: inline-block;
+            width: 400px;
+            height: 300px;
+            margin: 30px;
+            border-radius: 10px;
+        }
+    }
+    .boton-menu {
+        display: inline-block;
+        margin-bottom: 30px;
+        padding: 10px;
+        .link-menu {
+            font-size: 12px;
+            text-align: center;
+            border-style: groove;
+            border-color: yellow;
+            padding: 15px 10px;
+            cursor: pointer;
+            a {
+                color: $colorPrincipal;
+                font-weight: bolder;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.newsletter {
+    background-color: #eae0d5;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+    h2 {
+        margin-bottom: 10px;
+    }
+    p {
+        display: block;
+        margin: 10px;
+        padding: 20px;
+    }
+    .correo-electronico {
+        padding: 5px;
+    }
+    .boton-correo-electronico {
+        background-color: #333;
+        color: $colorPrincipal;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+}
