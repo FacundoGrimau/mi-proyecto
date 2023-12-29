@@ -1,7 +1,14 @@
 /* @media Header */
 @media (min-width: 300px) and (max-width: 700px) {
-    .container-fluid {
-        grid-template-columns: 20% 50% 20%;
-        justify-content: space-around;
+    #header {
+        margin: 0px;
+        padding: 0px;
+        .container-fluid {
+            gap: 5px;
+        }
+        .d-flex {
+            font-size: 12px;
+            padding: 10px;
+        }
     }
 }
