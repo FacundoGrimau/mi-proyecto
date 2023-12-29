@@ -137,16 +137,16 @@
                 padding-top: 10px;
             }
             .grid-menu {
-                display: flexbox;
-                flex-wrap: wrap;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
                 .burger-options img, .hot-dogs-options img  {
-                    width: 50px;
+                    width: 10px;
                     height: auto;
                     margin-top: 5px;
                     border-radius: 5px;
                 }
                 .acompanamientos-options img, .bebidas-options img {
-                    width: 50px;
+                    width: 10px;
                     height: 50px;
                     margin-top: 5px;
                     border-radius: 5px;

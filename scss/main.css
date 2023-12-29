@@ -598,17 +598,17 @@ main .boton-menu .link-menu a {
     padding-top: 10px;
   }
   .main-menu .descripcion-menu .grid-menu {
-    display: flexbox;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
   .main-menu .descripcion-menu .grid-menu .burger-options img, .main-menu .descripcion-menu .grid-menu .hot-dogs-options img {
-    width: 50px;
+    width: 10px;
     height: auto;
     margin-top: 5px;
     border-radius: 5px;
   }
   .main-menu .descripcion-menu .grid-menu .acompanamientos-options img, .main-menu .descripcion-menu .grid-menu .bebidas-options img {
-    width: 50px;
+    width: 10px;
     height: 50px;
     margin-top: 5px;
     border-radius: 5px;
