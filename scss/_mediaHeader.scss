@@ -1,14 +1,6 @@
 /* @media Header */
 @media (min-width: 300px) and (max-width: 700px) {
-    #header {
-        margin: 0px;
-        padding: 0px;
-        .container-fluid {
-            gap: 5px;
-        }
-        .d-flex {
-            font-size: 12px;
-            padding: 10px;
-        }
+    .container-fluid {
+        gap: 5px;
     }
 }
