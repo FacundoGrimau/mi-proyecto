@@ -123,50 +123,6 @@
 @media (min-width: 300px) and (max-width: 700px) {
     .descripcion-menu {
         display: block;
-        .tabla-de-contenido {
-            display: block;
-            font-size: 14px;
-            margin-bottom: 15px;
-        }
-        .menu-general {
-            display: block;
-            h2 {
-                font-size: 14px;
-                margin-top: 10px;
-                padding-top: 10px;
-            }
-            .grid-menu {
-                display: block;
-                .burger-options img, .hot-dogs-options img  {
-                    width: 100px;
-                    height: auto;
-                    margin-top: 5px;
-                    border-radius: 5px;
-                }
-                .acompanamientos-options img, .bebidas-options img {
-                    width: 100px;
-                    height: 50px;
-                    margin-top: 5px;
-                    border-radius: 5px;
-                }
-                .burger-options h3,
-                .hot-dogs-options h3,
-                .acompanamientos-options h3,
-                .bebidas-options h3 {
-                    margin: 0;
-                    padding: 0;
-                    font-size: 12px;
-                }
-                .burger-options p,
-                .hot-dogs-options p,
-                .acompanamientos-options p,
-                .bebidas-options p {
-                    margin: 0;
-                    padding: 0;
-                    font-size: 10px;
-                }
-            }   
-        }
     }
 }
 /* @media Franquicias */
