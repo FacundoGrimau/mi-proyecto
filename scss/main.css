@@ -585,7 +585,7 @@ main .boton-menu .link-menu a {
     padding: 20px;
   }
   .main-menu .descripcion-menu {
-    grid-template-rows: 40% 40%;
+    grid-template-rows: 50% 50%;
   }
   .main-menu .descripcion-menu .tabla-de-contenido {
     font-size: 14px;
