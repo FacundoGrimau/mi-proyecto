@@ -598,8 +598,8 @@ main .boton-menu .link-menu a {
     padding-top: 10px;
   }
   .main-menu .descripcion-menu .grid-menu {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    display: flexbox;
+    flex-wrap: wrap;
   }
   .main-menu .descripcion-menu .grid-menu .burger-options img, .main-menu .descripcion-menu .grid-menu .hot-dogs-options img {
     width: 50px;
