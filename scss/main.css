@@ -187,6 +187,10 @@ main .boton-menu .link-menu a {
 }
 
 /* Estilos Menu */
+.main-menu {
+  margin: 0px;
+  padding: 0px;
+}
 .main-menu .titulo-menu {
   color: blanchedalmond;
   font-size: 36px;
