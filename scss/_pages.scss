@@ -235,6 +235,19 @@ main {
     }
 }
 /* Estilos Franquicias */
+// Mixin //
+@mixin button-contact {
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 5.0;
+    text-decoration: none;
+    color: whitesmoke;
+    border-color: yellow;
+    border-style: groove;
+    padding: 10px;
+    cursor: pointer;
+}
+
 .main-franquicia {
     display: flex;
     align-items: center;
@@ -272,15 +285,7 @@ main {
             color: whitesmoke;
         }
         a {
-            font-size: 14px;
-            font-weight: bolder;
-            line-height: 5.0;
-            text-decoration: none;
-            color: whitesmoke;
-            border-color: yellow;
-            border-style: groove;
-            padding: 10px;
-            cursor: pointer;
+            @include button-contact();
         }
     }
 }
