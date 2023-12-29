@@ -458,7 +458,8 @@ main .boton-menu .link-menu a {
 /* @media Header */
 @media (min-width: 300px) and (max-width: 700px) {
   .container-fluid {
-    gap: 5px;
+    grid-template-columns: 20% 50% 20%;
+    justify-content: space-around;
   }
 }
 /* @media Index */
