@@ -137,6 +137,8 @@
                 padding-top: 10px;
             }
             .grid-menu {
+                display: grid;
+                grid-template-columns: repeat(2, 50%);
                 .burger-options img, .hot-dogs-options img  {
                     width: 10px;
                     height: auto;

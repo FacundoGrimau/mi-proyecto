@@ -597,6 +597,10 @@ main .boton-menu .link-menu a {
     margin-top: 10px;
     padding-top: 10px;
   }
+  .main-menu .descripcion-menu .grid-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
   .main-menu .descripcion-menu .grid-menu .burger-options img, .main-menu .descripcion-menu .grid-menu .hot-dogs-options img {
     width: 10px;
     height: auto;
