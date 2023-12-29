@@ -463,7 +463,7 @@ main .boton-menu .link-menu a {
 }
 /* @media Index */
 @media (min-width: 300px) and (max-width: 700px) {
-  .d-block {
+  .d-block img {
     max-width: 100%;
     height: 150px;
   }
