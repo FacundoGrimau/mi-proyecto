@@ -602,7 +602,7 @@ main .boton-menu .link-menu a {
     grid-template-columns: repeat(2, 1fr);
   }
   .main-menu .descripcion-menu .grid-menu .burger-options img, .main-menu .descripcion-menu .grid-menu .hot-dogs-options img {
-    width: 20%;
+    width: 50px;
     height: auto;
     margin-top: 5px;
     border-radius: 5px;
