@@ -586,12 +586,12 @@ main .boton-menu .link-menu a {
     padding: 20px;
   }
   .descripcion-menu {
-    display: block;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
   }
   .descripcion-menu .tabla-de-contenido {
     font-size: 14px;
     margin-bottom: 15px;
-    display: block;
   }
   .descripcion-menu .menu-general h2 {
     font-size: 14px;
