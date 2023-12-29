@@ -585,49 +585,7 @@ main .boton-menu .link-menu a {
     padding: 20px;
   }
   .main-menu .descripcion-menu {
-    grid-template-rows: 50% 50%;
-  }
-  .main-menu .descripcion-menu .tabla-de-contenido {
-    font-size: 14px;
-    margin-bottom: 30px;
-    display: block;
-  }
-  .main-menu .descripcion-menu .menu-general h2 {
-    font-size: 14px;
-    margin-top: 10px;
-    padding-top: 10px;
-  }
-  .main-menu .descripcion-menu .grid-menu {
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-  }
-  .main-menu .descripcion-menu .grid-menu .burger-options img, .main-menu .descripcion-menu .grid-menu .hot-dogs-options img {
-    width: 10px;
-    height: auto;
-    margin-top: 5px;
-    border-radius: 5px;
-  }
-  .main-menu .descripcion-menu .grid-menu .acompanamientos-options img, .main-menu .descripcion-menu .grid-menu .bebidas-options img {
-    width: 10px;
-    height: 50px;
-    margin-top: 5px;
-    border-radius: 5px;
-  }
-  .main-menu .descripcion-menu .grid-menu .burger-options h3,
-  .main-menu .descripcion-menu .grid-menu .hot-dogs-options h3,
-  .main-menu .descripcion-menu .grid-menu .acompanamientos-options h3,
-  .main-menu .descripcion-menu .grid-menu .bebidas-options h3 {
-    margin: 0;
-    padding: 0;
-    font-size: 12px;
-  }
-  .main-menu .descripcion-menu .grid-menu .burger-options p,
-  .main-menu .descripcion-menu .grid-menu .hot-dogs-options p,
-  .main-menu .descripcion-menu .grid-menu .acompanamientos-options p,
-  .main-menu .descripcion-menu .grid-menu .bebidas-options p {
-    margin: 0;
-    padding: 0;
-    font-size: 10px;
+    grid-template-rows: 40% 40%;
   }
 }
 /* @media Franquicias */
