@@ -1,7 +1,7 @@
 /* @media Index */
 @media (min-width: 300px) and (max-width: 700px) {    
     .d-block img {
-        width: 50%;
+        max-width: 100%;
         height: auto;
     }
     .productos {
@@ -124,48 +124,51 @@
     .main-menu {
         display: block;
         padding: 20px;
-        .tabla-de-contenido {
-            font-size: 14px;
-            margin-bottom: 15px;
+        .descripcion-menu {
+            display: block;
+            .tabla-de-contenido {
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+            .menu-general h2 {
+                font-size: 14px;
+                margin-top: 10px;
+                padding-top: 10px;
+            }
+            .grid-menu {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                .burger-options img, .hot-dogs-options img  {
+                    width: 100px;
+                    height: auto;
+                    margin-top: 5px;
+                    border-radius: 5px;
+                }
+                .acompanamientos-options img, .bebidas-options img {
+                    width: 100px;
+                    height: 50px;
+                    margin-top: 5px;
+                    border-radius: 5px;
+                }
+                .burger-options h3,
+                .hot-dogs-options h3,
+                .acompanamientos-options h3,
+                .bebidas-options h3 {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 12px;
+                }
+                .burger-options p,
+                .hot-dogs-options p,
+                .acompanamientos-options p,
+                .bebidas-options p {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 10px;
+                }
+            }
         }
-        .menu-general h2 {
-            font-size: 14px;
-            margin-top: 10px;
-            padding-top: 10px;
-        }
-        .grid-menu {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            .burger-options img, .hot-dogs-options img  {
-                width: 100px;
-                height: auto;
-                margin-top: 5px;
-                border-radius: 5px;
-            }
-            .acompanamientos-options img, .bebidas-options img {
-                width: 100px;
-                height: 50px;
-                margin-top: 5px;
-                border-radius: 5px;
-            }
-            .burger-options h3,
-            .hot-dogs-options h3,
-            .acompanamientos-options h3,
-            .bebidas-options h3 {
-                margin: 0;
-                padding: 0;
-                font-size: 12px;
-            }
-            .burger-options p,
-            .hot-dogs-options p,
-            .acompanamientos-options p,
-            .bebidas-options p {
-                margin: 0;
-                padding: 0;
-                font-size: 10px;
-            }
-        }
-    }
+    }        
 }
 /* @media Franquicias */
 @media (min-width: 300px) and (max-width: 700px) {

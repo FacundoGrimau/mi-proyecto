@@ -464,7 +464,7 @@ main .boton-menu .link-menu a {
 /* @media Index */
 @media (min-width: 300px) and (max-width: 700px) {
   .d-block img {
-    width: 50%;
+    max-width: 100%;
     height: auto;
   }
   .productos h1 {
@@ -584,43 +584,46 @@ main .boton-menu .link-menu a {
     display: block;
     padding: 20px;
   }
-  .main-menu .tabla-de-contenido {
+  .main-menu .descripcion-menu {
+    display: block;
+  }
+  .main-menu .descripcion-menu .tabla-de-contenido {
     font-size: 14px;
     margin-bottom: 15px;
   }
-  .main-menu .menu-general h2 {
+  .main-menu .descripcion-menu .menu-general h2 {
     font-size: 14px;
     margin-top: 10px;
     padding-top: 10px;
   }
-  .main-menu .grid-menu {
+  .main-menu .descripcion-menu .grid-menu {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .main-menu .grid-menu .burger-options img, .main-menu .grid-menu .hot-dogs-options img {
+  .main-menu .descripcion-menu .grid-menu .burger-options img, .main-menu .descripcion-menu .grid-menu .hot-dogs-options img {
     width: 100px;
     height: auto;
     margin-top: 5px;
     border-radius: 5px;
   }
-  .main-menu .grid-menu .acompanamientos-options img, .main-menu .grid-menu .bebidas-options img {
+  .main-menu .descripcion-menu .grid-menu .acompanamientos-options img, .main-menu .descripcion-menu .grid-menu .bebidas-options img {
     width: 100px;
     height: 50px;
     margin-top: 5px;
     border-radius: 5px;
   }
-  .main-menu .grid-menu .burger-options h3,
-  .main-menu .grid-menu .hot-dogs-options h3,
-  .main-menu .grid-menu .acompanamientos-options h3,
-  .main-menu .grid-menu .bebidas-options h3 {
+  .main-menu .descripcion-menu .grid-menu .burger-options h3,
+  .main-menu .descripcion-menu .grid-menu .hot-dogs-options h3,
+  .main-menu .descripcion-menu .grid-menu .acompanamientos-options h3,
+  .main-menu .descripcion-menu .grid-menu .bebidas-options h3 {
     margin: 0;
     padding: 0;
     font-size: 12px;
   }
-  .main-menu .grid-menu .burger-options p,
-  .main-menu .grid-menu .hot-dogs-options p,
-  .main-menu .grid-menu .acompanamientos-options p,
-  .main-menu .grid-menu .bebidas-options p {
+  .main-menu .descripcion-menu .grid-menu .burger-options p,
+  .main-menu .descripcion-menu .grid-menu .hot-dogs-options p,
+  .main-menu .descripcion-menu .grid-menu .acompanamientos-options p,
+  .main-menu .descripcion-menu .grid-menu .bebidas-options p {
     margin: 0;
     padding: 0;
     font-size: 10px;
