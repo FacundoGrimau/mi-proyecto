@@ -149,10 +149,11 @@ main {
 .main-menu {
     margin: 0px;
     padding: 0px;
-    .titulo-menu {
+    .titulo-menu h1 {
         color: $colorTerciario;
         font-size: 36px;
         font-weight: bolder;
+        font-style: italic;
         margin: 20px;
         padding: 20px;
     }
@@ -285,7 +286,7 @@ main {
 }
 /* Estilos Contacto */
 .main-contacto {
-    .titulo-contacto {
+    .titulo-contacto h1 {
         background-color: darkgoldenrod;
         color: $colorSecundario;
         font-size: 36px;
